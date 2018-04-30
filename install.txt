@@ -1,0 +1,17 @@
+*** INSTALL ***
+
+1. Create a base encoding (utf8_general_ci)
+2. Import ../myblog.sql
+3. Edit Constants ../config/config.php
+	define('DB_HOST', 'your url');
+	define('DB_USER', 'login user mysql');
+	define('DB_PASS', 'password mysql');
+	define('DB_NAME', 'name you base');
+4. Log in to the admin panel http:/host/admin.php 
+	Login: 		admin
+	Password: 	12345
+
+1. Создать базу с кодировкой (utf8_general_ci)
+2. Импортирем ../myblog.sql
+3. Изменяем Константы ../config/config.php
+4. Зайти в админ панель http:/host/admin.php 
